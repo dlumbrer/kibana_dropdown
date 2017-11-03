@@ -4,6 +4,23 @@ Dropdown widget for Kibana dashboards.
 
 Useful for embedded dashboards to provide basic filtering on specific fields.
 
+## Installation Steps
+
+```
+cd KIBANA_HOME/plugins
+git clone https://github.com/dlumbrer/kibana_dropdown.git
+cd kibana_dropdown
+npm install
+```
+> **Important:** If you have any problem with the plugin version (like a warning message "**it expected Kibana version "5.5.0", and found "5.5.x"**") only change the value of the "version" tag on the package.json to your Kibana version
+
+
+#### Uninstall:
+```
+cd KIBANA_HOME
+rm -rf plugins/kibana_dropdown/
+```
+
 ![Dropdown](dropdown.png?raw=true "Dropdown Dashboard Widget")
 
 
